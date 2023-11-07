@@ -1,0 +1,35 @@
+.Create-Button{
+    position: absolute;
+    left: 100px;
+  
+}
+
+.write-review{
+    border-radius: 0 0 0 0;
+    background-color: wheat;
+    color:black
+}
+.main-container{
+    position: absolute;
+    top:20px;
+    border-radius:0 0 0 0;
+}
+.reviews{
+    margin-top: 60px;
+}
+.review-content{
+    display: inline-block;
+    margin: 20px;
+    vertical-align:bottom;
+}
+
+.review-post{
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 0 0 0 0 ;
+    text-align:justify
+}

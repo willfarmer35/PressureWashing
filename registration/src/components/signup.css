@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    background-image: url("../../public/images/background.jpeg");
+    background-size: 100%;
+}
+#response{
+    color:red
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 30px 30px 30px 30px;
+   
+}
+h3{
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+}
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+.sign-up {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+.Header{
+    font-weight: bold;
+    font-size: 34px;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+input[type="email"],
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  color: white;
+  background-color: black;
+  border-radius:30px 30px 15px 15px;
+  
+}
+
+
+
+
+.error {
+    margin-top: 10px;
+    color:white;
+    background-color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+

@@ -1,0 +1,285 @@
+.navbar {
+  max-width: 3000px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+}
+
+
+
+
+/* CSS */
+.button-8 {
+  margin: 5px;
+  background-color: #242424;
+  border-radius: 3px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: white;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: white;
+  box-shadow: none;
+  color: #242424;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1600px;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 30px;
+  color: #fff;
+  justify-self: start;
+
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-left: 14rem;
+  
+}
+.location{
+  position: absolute;
+  left:320px;
+}
+.navbar-location{
+  position: absolute;
+  
+  color: #fff;
+  justify-self: start;
+  
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  height: 80px;
+  margin-right: 5px;
+ 
+}
+
+.nav-links {
+ 
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+.location2{
+  position: absolute;
+  left:0px;
+  height: 0px;
+
+}
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+    
+    
+  }
+}
+@media screen and (max-width: 960px) {
+  .navbar {
+    position: relative;
+    max-width:1600px;
+    min-width: 600px;
+    
+    
+  }
+}
+  @media screen and (max-width: 960px) {
+    .navbar-logo {
+      margin-top: 20px;
+      margin-left: 30px;
+      font-size: 34px;
+      
+      
+    }
+@media screen and (max-width:960px){
+  .button-8, .button-8:active,.button-8:focus,.button-8:hover{
+    position: absolute;
+    left:100000px;
+    height: 2px;
+    width: 2px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+  }
+}
+@media screen and (max-width: 960px){
+ .location{
+  height: 1px;
+  width:0px;
+  
+ }
+  .location2,.navbar-location{
+    position:absolute;
+    color: black;
+    height:40px;
+    top: 100px;
+    left: 100px;
+
+  }
+ 
+
+}
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -200%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    min-width:600px;
+    display: flex;
+    justify-content: center;
+    background: #242222;
+    margin-right: 308px;
+    left:auto;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0px 0px 0px;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+
+  .menu-icon {
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-150%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+}

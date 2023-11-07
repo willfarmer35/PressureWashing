@@ -1,0 +1,106 @@
+.header-logo{
+    margin-left: 20px;
+}
+.personicon{
+    height:30px;
+    margin-right: 60px
+}
+.forum{
+    margin-left:60px;
+    height:30px
+}
+.card{
+    position:relative;
+    width: 600px;
+    max-width: 85vw;
+    height: 50vh;
+    color:white;
+    background-position: center;
+    background-size:cover;
+    border-radius:20px
+}
+.card > h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px
+}
+
+.swipe{
+    position:absolute
+}
+.contractorpic{
+    display:block;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  h2 {
+    margin-left: 40px;
+    margin-top:5px
+  }
+  .Labels{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+ 
+   
+  }
+    .btn{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    }
+    .btn--primary{
+        background-color: var(--primary);
+        color: white;
+        border: 1px solid var(--primary);
+    }
+
+    .btn-outline {
+        
+        background-color: white;
+        color: white;
+        padding: 8px 20px;
+        border: 1px solid var(--primary);
+        transition: all .3s ease-out;
+    }
+    .btn--medium{
+        padding: 8px 20px;
+        font-size: 20px;
+    }
+    .btn--large{
+        padding: 12px 26px;
+        font-size: 20px;
+    }
+    .btn--medium:hover,
+    .btn--large:hover {
+        background-color: white;
+        color: black;
+        transition: 250ms;
+    }
+
+
+  .logo{
+    margin-left: 450px
+  }
+  .logo2{
+    height: 50px;
+    margin-left: 300px;
+    align-items: center;
+    display: flex;
+  }
+  .logo3{
+    height: 50px;
+    margin-left: 300px;
+    float:right
+  }

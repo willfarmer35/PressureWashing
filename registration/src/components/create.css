@@ -1,0 +1,33 @@
+input[type=radio]{
+    display:none 
+}
+
+  
+.star{
+    cursor:pointer;
+    display: inline-flex;
+   
+
+}
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+}
+.starrynight{
+    display: inline;
+}
+
+.post-post{
+    height: 200px;
+    width: 400px;
+   
+}
+.error{
+    background-color: transparent;
+    color:red;
+}

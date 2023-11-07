@@ -1,0 +1,18 @@
+.main{
+    position: absolute;
+    top: 20px
+}
+.OurStory{
+    margin: 20px;
+    background-color: white;
+    max-height: 600px ;
+    color:rgb(63, 63, 181);
+    font-weight: 550;
+    
+    
+}
+
+.pic{
+    max-height:200px;
+    margin:50px;
+}

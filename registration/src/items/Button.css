@@ -1,0 +1,17 @@
+
+
+
+  .logo{
+    margin-left: 450px
+  }
+  .logo2{
+    height: 50px;
+    margin-left: 300px;
+    align-items: center;
+    display: flex;
+  }
+  .logo3{
+    height: 50px;
+    margin-left: 300px;
+    float:right
+  }
